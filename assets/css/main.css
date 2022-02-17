@@ -4690,5 +4690,20 @@ input, select, textarea {
 	}
 
 	.icons{
-		
+		font-size: 2.8vw;
 	}
+
+	.image.fit-language {
+		display: block;
+		margin: 2.5rem 0;
+		width: 25%;
+	}
+
+		.image.fit-language:first-child {
+			margin-top: 0;
+		}
+
+		.image.fit-language img {
+			width: 35%;
+			height: 100px
+		}
